@@ -1,16 +1,16 @@
 ---
 title: In The Beginning
 author: ceoDemitri
-date: 2021-05-01
+date: 2023-11-06
 tags: ["post", "featured"]
 image: /assets/blog/article-1.jpg
-imageAlt: Very first Blog
-description: A Challenge to myself to do something different. 
+imageAlt: Blog Post One
+description: A Challenge to myself to do something different. How easy life may pass us by and when we look around, the world is passing us by as well. Exact feeling I felt one day one year ago today; "I Have to make a difference..."
 ---
 
-I think to the past and am inspired by the ingenuity, imagination and invention. The programmers before me have paved a wonderful path inspiring me to push the limits and make my own mark. How much more is left to discover; every day amazing coders develop new recipes making all of our jobs a bit easier. With the release of AI and Machine Learning a whole new terrain has been uncovered. I have always enjoyed a fiesty challenge. I do get joy from solving complex problems. 
+I think to the past and am hugely inspired by the ingenuity, imagination and invention. The programmers before us have paved a wonderful path inspiring me to push the limits and focus on making my own mark. I am amazed at how much they accomplished and where they have lead us. How much more is left to discover? Have we reached the apex? No. Every day amazing coders, today, develop new recipes and tools making all of our jobs a bit easier. With the release of AI and Machine Learning, a whole new terrain has been uncovered. All of us new comers have much ground to make up. I have always enjoyed a fiesty challenge. I do get joy from solving complex problems. I have accessed the landscape and have uncovered three unique challenges for me: Improve on the works of giants, keep up with my peers and now keep up with the world.
 
-Growing up, I never really used too much brain power; school was super easy even in the advanced classes. So I coasted even when I could push my limits and show a bit more. Coding has been my chance to really stretch my brain muscles. Now, learning in 2023, I thought I would find random people here and there trying to learn like me but I was amazed to find a whole community of communities full of people all over the world teaching themselves to code. How amazing. 
+Growing up, I never really used too much brain power; school was super easy even in the advanced classes. So I coasted even when I could push my limits and show a bit more. Coding has been my chance to really stretch my brain muscles. Now, learning in 2023, I thought I would find random people here and there trying to learn like me but I was amazed to find a whole community of communities full of people all over the world teaching themselves to code. How amazing. Coding requires a lot of fearlessness and flexibility, amongst a list of other things, forcing me to implement every square inch of my brain mass. And that is the fun part. 
 
 I believe the role of man is to invent and aspire; no need to repeat any generation because you build on from the next and grow. In my opinion, I refuse to believe this has been the height of civilization. Driving dinosaur cars with our delicate "fossil fuels", using dirty electricity to power many of our electronics; the lack of ineffeciency is disturbing to me. As powerful as we should be, our technology is slow and heavily bogged with bloatware. We, the majority, wait on a small minority to signal when it is time to elevate. We simply go with the flow. As for me, I am here to spark a revolution. 
 
