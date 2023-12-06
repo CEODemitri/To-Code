@@ -1,11 +1,11 @@
 ---
-title: In The Beginning
+title: In The Beginning...
 author: ceoDemitri
 date: 2023-11-09
 tags: ["post", "featured"]
 image: /assets/blog/article-1.jpg
 imageAlt: A Mindful Ninja
-description: A Challenge to myself to be something different. How easy life may pass us by and when we stop then look around; just the same, the world is passing by too. Exact feeling I felt one day one year ago today; "I Have to be a difference..."
+description: I started this adventure as A Challenge to myself to be something different. The path has been exciting and eye-opening. How easy life may pass us by revealing new paradigms by the moment. Where will you be when the next shift happens? Where will I be? For one, I know, I will be an assest to the future society.
 ---
 
 I think to the past and am hugely inspired by the ingenuity, imagination and invention. The programmers before us have paved a wonderful path inspiring me to push the limits and focus on making my own mark. I am amazed at how much they accomplished and where they have lead us. How much more is left to discover? Have we reached the apex? No. Every day amazing coders, today, develop new recipes and tools making all of our jobs a bit easier. With the release of AI and Machine Learning, a whole new terrain has been uncovered. All of us new comers have much ground to make up. I have always enjoyed a fiesty challenge. I do get joy from solving complex problems; transversing the tech land may be one of the tricker problems of our generation. I have accessed the landscape and have uncovered three unique challenges for me: Improve on the works of giants, keep up with my peers and make a difference in the world.
