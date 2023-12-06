@@ -20,3 +20,12 @@ eleventy:
     advantage:
     competition:
 
+## What Next
+The purpose of this project was to learn 11ty and become a better web developer. I feel I have partially accomplished this task, from this one project. I must remember this will be a gradual process. Everything I need to know will not be revealed in one session or even one project. Stay persistent and continue to work by building. 
+
+### TODO
+1. rewrite blogs 1/5: rename blogs
+2. change layout
+3. change palette
+4. change pictures
+
