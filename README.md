@@ -5,7 +5,7 @@ I started this project using a template from Kevin Powell. My first site was sim
 My plan is to revisit this project in around three months. I am a developer, I have the skills to build all things I direct my energy too. The hardest part for me is trying to make everything have a purpose. I enjoy working with SSG's and templating languages are quite intersesting. 
 
 ## Starter Files
-I cloned Kevin Powell's repo and followed his youtube tutorial to gain better experience with this build. Even reading the docs, my build would have been lacking. I used sveltekit the first run, I believe. SO happy I used 11ty for this project. Excited and eager to build more.
+I cloned Kevin Powell's repo and followed his youtube tutorial to gain better experience with this build. Even reading the docs, my build would have been lacking. I used sveltekit the first run(thought be easier to follow the directions). SO happy I used 11ty for this project. Excited and eager to build more.
 
 ## Project Build
 Much more intricate a process then I assumed. Very detailed and easily configurable. About four or five days build. Easy to keep up, little to no bugs. Simple but thorough process. 
