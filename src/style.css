@@ -14,16 +14,16 @@
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-200: hsla(169, 70%, 95%, 1);
-  --clr-primary-300: hsla(169, 100%, 39%, 1);
-  --clr-primary-400: hsla(169, 100%, 26%, 1);
-  --clr-primary-500: hsla(169, 100%, 16%, 1);
+  --clr-primary-200: hsla(223, 70%, 95%, 1);
+  --clr-primary-300: hsla(223, 100%, 39%, 1);
+  --clr-primary-400: hsla(223, 100%, 26%, 1);
+  --clr-primary-500: hsla(223, 100%, 16%, 1);
 
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
   --clr-neutral-400: hsla(0, 0%, 40%, 1);
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
-  --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  --clr-neutral-900: hsl(5, 42%, 6%);
 }
 
 @media (min-width: 35em) {
