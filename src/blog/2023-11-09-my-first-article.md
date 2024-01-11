@@ -11,7 +11,8 @@ description: I started this adventure as A Challenge to myself to be something d
 <!-- TODO 1: rewrite this blog and write complete at the bottom of the page-->
 <!-- for the first blog, my idea is to get the ball rolling with this site. I have a few plans to implement. this first blog must set the foundation for this iteration of the site(even though it will be seen last when listed, more personal) -->
 <!-- topic: in the beginning: as coders what is our motivation, what may we accomplish, the state of the coding community -->
-Marching into the tech field can be extremely competitive and at the same time, or even more rewarding. Millions of people across the world have migrated to tech in hopes of staying relevant with the current times. Observing the landscape we call home, society seems to be immersed in technology with the stragglers quickly adapting and adopting newer, modern methods to best serve their supporters. So it seems only right to align your skills as so: leading an enormous influx of brand new coders into the tech market. 
+
+Marching into the tech field can be extremely competitive and at the same time, or even more rewarding. Millions of people across the world have migrated to tech in hopes of staying relevant with the current times. Observing the landscape we call home, society seems to be immersed in technology with the stragglers quickly adapting and adopting newer, modern methods to best serve their supporters. So it seems only right to align your skills as so: leading an enormous influx of brand new coders into the tech market.
 
 <code>
     <p style="background-color: lightgrey; margin: 15px; padding: 5px; border-radius: 10px; width: 50%;">
@@ -23,4 +24,6 @@ When I started my own journey, my spider senses never tingled concerning the num
 
 <!-- proofread below here and up the ante. get live -->
 <!-- is this blog meant to detail my personal journey or to relate to many -->
-The next shocker for me was the amount of prebuilt code. I had no intention of playing legos, in the terms of just stacking uilding blocks ontop of the others; again I assumed I would be like Steve Woziak, building from the ground up. I get it, all the Reacts and BootStraps. I definetly did not expect this paradigm either. And then the inevitable happened; the public introduction to easily accesible AI and other Maachine Learning tools. 
+
+To be honest, the act of coding has been greatly simplified due to many progressions. What will the role be for us newbies? Seems to occur monthly; a new aspect of tech surfaces, pushing to increase productivity and all sorts of excuses. What may we offer in this short period of time?
+Progression is the only job of a human; we were not summoned here from nature to maintain, to advance and build from the predecessors is the way to go.
