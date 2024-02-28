@@ -1,7 +1,7 @@
 ---
 title: In The Beginning...
 author: ceoDemitri
-date: 2023-11-09
+date: 2023-11-11
 tags: ["post", "featured"]
 image: /assets/blog/article-1.jpg
 imageAlt: A Mindful Ninja

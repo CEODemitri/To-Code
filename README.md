@@ -28,6 +28,8 @@ The purpose of this project was to learn 11ty and become a better web developer.
 
 ### TODO
 
+MODIFY THE SRC FILES ONLY!!
+
 1. rewrite blogs 1/5: Going to slow, pick up the speed my boy.
    a. diving into thr abyss of tech
 2. change layout
