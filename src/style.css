@@ -200,11 +200,13 @@ section,
 
 .page-header {
   padding: 1em 0;
+  background-color: black;
 }
 
 .page-header__content {
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 
 .nav-list {
@@ -213,7 +215,7 @@ section,
 }
 
 .nav-list a {
-  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-200);
   text-decoration: none;
 }
 
@@ -239,6 +241,10 @@ section,
   Homepage
   /////////////////////// */
 
+.hero {
+  background-color: black;
+}
+
 .hero > div {
   display: grid;
   grid-auto-flow: row;
@@ -246,6 +252,12 @@ section,
   align-items: center;
   gap: 3em;
 }
+
+.hero__container {
+  background-color: #727d7d;
+
+}
+
 
 .hero__image {
   width: 100%;
