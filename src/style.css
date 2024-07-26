@@ -243,6 +243,7 @@ section,
 
 .hero {
   background-color: black;
+  height:40vh;
 }
 
 .hero > div {
@@ -255,15 +256,19 @@ section,
 
 .hero__container {
   background-color: #727d7d;
-
+  position: relative;
+  font-size: 0.8em;
+  height: 40vh;
+  border-radius: 0.5em;
 }
 
 
 .hero__image {
-  width: 100%;
   /* max-height: max(15rem, 40vh); */
   object-fit: cover;
+  height: 40vh;
 }
+
 
 @media (min-width: 45em) {
   .hero > div {
@@ -273,6 +278,19 @@ section,
 
 .featured-articles {
   background-color: var(--clr-primary-200);
+  margin-top: 15em;
+}
+
+@media (max-width: 600px) {
+  .hero__image {
+    height: 30vh;
+    margin: auto;
+    width: 100svw;
+  }
+
+  .featured-articles {
+    margin-top: 20em;
+  }
 }
 
 .articles__list {
