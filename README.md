@@ -49,3 +49,8 @@ Learning to navigate Our world of Tech, follow me.
 Changed Hero section to fit Image and text together.
 Add Favicon.ico
 New Fonts
+
+TODO:
+
+1. fix snippet 'more' position
+2. footer
