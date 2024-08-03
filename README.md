@@ -49,6 +49,8 @@ Learning to navigate Our world of Tech, follow me.
 Changed Hero section to fit Image and text together.
 Add Favicon.ico
 New Fonts
+Refresh Nav | Footer
+Green for variable primary
 
 TODO:
 
