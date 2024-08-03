@@ -2,6 +2,7 @@
 title: In The Beginning...
 author: ceoDemitri
 date: 2024-03-06
+time: 5 mins
 tags: ["post", "featured"]
 image: /assets/blog/article-1.jpg
 imageAlt: A Mindful Ninja

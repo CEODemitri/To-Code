@@ -35,3 +35,17 @@ MODIFY THE SRC FILES ONLY!!
 2. change layout
 3. change palette
 4. change pictures
+
+---
+
+# To Code
+
+Learning to navigate Our world of Tech, follow me.
+
+## LOGS
+
+8 03
+
+Changed Hero section to fit Image and text together.
+Add Favicon.ico
+New Fonts

@@ -2,6 +2,7 @@
 title: Me vs My Self
 author: ceoDemitri
 date: 2024-03-04
+time: 5 mins
 tags: ["post", "featured"]
 image: /assets/blog/article-2.jpg
 imageAlt: This is a test

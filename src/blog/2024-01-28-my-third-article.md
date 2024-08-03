@@ -2,6 +2,7 @@
 title: My Third Article
 author: ceoDemitri
 date: 2024-01-28
+time: 5 mins
 tags: ["post", "featured"]
 image: /assets/blog/article-3.jpg
 imageAlt: This is a test

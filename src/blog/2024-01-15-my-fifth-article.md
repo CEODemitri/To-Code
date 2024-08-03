@@ -2,6 +2,7 @@
 title: My Fifth Article
 author: ceoDemitri
 date: 2024-01-15
+time: 5 mins
 tags: ["post", "featured"]
 image: /assets/blog/article-5.jpg
 imageAlt: This is a test
