@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./favicon_io");
+  eleventyConfig.addPassthroughCopy("./favicon.ico");
   eleventyConfig.addPassthroughCopy("./src/style.css");
   eleventyConfig.addPassthroughCopy("./src/assets");
 

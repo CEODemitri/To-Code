@@ -237,6 +237,13 @@ section,
   text-align: center;
   height: fit-content;
   border-radius: 0.8em;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer > div {
+  display: flex;
+  gap: 5rem;
 }
 
 /* //////////////////////
@@ -425,4 +432,10 @@ section,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
