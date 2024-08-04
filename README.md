@@ -56,3 +56,15 @@ TODO:
 
 1. fix snippet 'more' position
 2. footer
+
+8 03 pt 2
+
+More me all over the page
+Bootstrap navbar
+Blogs by ai directed by me.
+
+TODO:
+
+1. fix snippet 'more' position
+2. footer
+3. animations, more detail
