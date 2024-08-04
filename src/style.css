@@ -80,6 +80,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: var(--clr-primary-200)
 }
 
 /* A elements that don't have a class get default styles */
@@ -290,8 +291,7 @@ section,
 }
 
 .featured-articles {
-  background-color: var(--clr-primary-200);
-  margin-top: 20em;
+  margin-top: 10em;
 }
 
 @media (max-width: 600px) {
@@ -302,13 +302,24 @@ section,
   }
 
   .featured-articles {
-    margin-top: 23em;
+    margin-top: 28em;
   }
 }
 
 .articles__list {
   --flow-spacer: 3rem;
   margin: 6rem 0;
+}
+
+.intro {
+  background-color: #727d7d70;
+  padding: 2em;
+  margin-bottom: 4em;
+  border-radius: 0.8em;
+}
+
+.intro > i {
+  color: black;
 }
 
 /* //////////////////////
