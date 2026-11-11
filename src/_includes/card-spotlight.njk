@@ -1,0 +1,58 @@
+<article class="card card--spotlight">
+  <div class="card__media">
+    <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="card__img" loading="lazy">
+    <div class="card__media-overlay"></div>
+    <span class="card__badge card__badge--spotlight">
+      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+      </svg>
+      Editor's Choice
+    </span>
+  </div>
+
+  <div class="card__content">
+    <div class="card__meta-bar">
+      <span class="card__category">{{ post.data.category or "Featured Exploration" }}</span>
+      <span class="meta-dot" aria-hidden="true">•</span>
+      <span class="card__date">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+        </svg>
+        {{ post.date | postDate }}
+      </span>
+      <span class="meta-dot" aria-hidden="true">•</span>
+      <span class="card__time">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+        </svg>
+        {{ post.data.time }}
+      </span>
+    </div>
+
+    <h3 class="card__title card__title--spotlight">
+      <a href="{{ post.url }}" class="card-link">{{ post.data.title }}</a>
+    </h3>
+
+    <p class="card__excerpt card__excerpt--spotlight">{{ post.data.description }}</p>
+
+    <div class="card__footer card__footer--spotlight">
+      <div class="card__author">
+        <div class="card__avatar">cD</div>
+        <div class="card__author-info">
+          <span class="card__author-name">{{ post.data.author }}</span>
+          <span class="card__author-role">Founder &amp; Developer</span>
+        </div>
+      </div>
+
+      <div class="card__cta">
+        <span class="btn btn--primary card__button">
+          Read Story
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>
+</article>

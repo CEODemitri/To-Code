@@ -1,0 +1,28 @@
+<article class="card card--compact">
+  <div class="card__compact-media">
+    <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="card__compact-img" loading="lazy">
+  </div>
+
+  <div class="card__compact-content">
+    <div class="card__compact-header">
+      <span class="card__tag-code">// LOG_{{ logIndex or loop.index }} • {{ post.data.category or "DEV NOTE" }}</span>
+      <span class="card__pill-time">⚡ {{ post.data.time }}</span>
+    </div>
+
+    <h3 class="card__title card__title--compact">
+      <a href="{{ post.url }}" class="card-link">{{ post.data.title }}</a>
+    </h3>
+
+    <p class="card__compact-excerpt">{{ post.data.description }}</p>
+
+    <div class="card__compact-footer">
+      <span class="card__date-simple">{{ post.date | postDate }}</span>
+      <span class="card__compact-action" aria-hidden="true">
+        Read Note
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+      </span>
+    </div>
+  </div>
+</article>

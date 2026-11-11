@@ -3,30 +3,251 @@ title: Home page
 layout: 'base.njk'
 ---
 
-<section class="hero">
-  <div class="container hero__container">
-    <div class="hero__content flow">
-      <h1>Attention Developers of the Future</h1>
-      <p>Like you and many of us across our space, I recognized I needed to find a way into tech. I begun to dive deep in the world of programming to earn a new skill almost two years ago. With this blog, my intentions are to inspire and motivate you along your journey by documenting my own. The benefits I recieve from building this blog site are identical. This site is one of which that keeps me pushing to become a better developer.</p>
-      <p>What you can expect from this blog? Adventure and a fresh, unique point of view. To start off slow, I have a few articles below for you to get a feel of my writing style. Thank for visiting and please enjoy.</p>
+<section class="hero-modern">
+  <div class="container">
+    <div class="hero-modern__grid">
+      <div class="hero-modern__content">
+        <span class="hero-modern__subtitle">Attention Developers of the Future</span>
+        <h1 class="hero-modern__title">
+          Documenting the Journey to becoming a <span class="text-gradient">Better Developer</span>
+        </h1>
+        <p class="hero-modern__text">
+          Like you and many of us across our space, I recognized I needed to find a way into tech. I began to dive deep in the world of programming to earn a new skill almost two years ago. With this blog, my intentions are to inspire and motivate you along your journey by documenting my own. 
+        </p>
+        <div class="hero-modern__actions">
+          <a href="#featured-articles" class="btn btn--primary">Read Featured Blogs</a>
+          <a href="/about" class="btn btn--neutral">About My Journey</a>
+        </div>
+      </div>
+      
+      <div class="hero-modern__media">
+        <div class="console-window">
+          <div class="console-window__header">
+            <div class="console-dots">
+              <span class="console-dot console-dot--red"></span>
+              <span class="console-dot console-dot--yellow"></span>
+              <span class="console-dot console-dot--green"></span>
+            </div>
+            <span class="console-title">developer.js — To Code</span>
+          </div>
+          <div class="console-window__body">
+            <div class="console-line">
+              <span class="console-prompt">&gt;</span>
+              <span class="console-keyword">const</span>
+              <span>&nbsp;developer&nbsp;=</span>
+              <span class="console-keyword">&nbsp;{</span>
+            </div>
+            <div class="console-line" style="padding-left: 1.5rem;">
+              <span class="console-var">name:</span>
+              <span class="console-string">&nbsp;"ceoDemitri"</span>,
+            </div>
+            <div class="console-line" style="padding-left: 1.5rem;">
+              <span class="console-var">role:</span>
+              <span class="console-string">&nbsp;"Developer of the Future"</span>,
+            </div>
+            <div class="console-line" style="padding-left: 1.5rem;">
+              <span class="console-var">stack:</span>
+              <span>&nbsp;[</span>
+              <span class="console-string">"HTML"</span>,
+              <span class="console-string">&nbsp;"CSS"</span>,
+              <span class="console-string">&nbsp;"JS"</span>,
+              <span class="console-string">&nbsp;"11ty"</span>
+              <span>],</span>
+            </div>
+            <div class="console-line" style="padding-left: 1.5rem;">
+              <span class="console-var">motivation:</span>
+              <span class="console-string">&nbsp;"Inspire others & learn"</span>,
+            </div>
+            <div class="console-line" style="padding-left: 1.5rem;">
+              <span class="console-var">isLearning:</span>
+              <span class="console-keyword">&nbsp;true</span>
+            </div>
+            <div class="console-line">
+              <span class="console-prompt">&nbsp;</span>
+              <span class="console-keyword">};</span>
+            </div>
+            <div class="console-line" style="margin-top: 1rem;">
+              <span class="console-prompt">&gt;</span>
+              <span class="console-function">console</span>.log(developer.motivation);
+            </div>
+            <div class="console-line">
+              <span class="console-prompt">&nbsp;</span>
+              <span class="console-comment">// "Inspire others & learn"</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <img src="./assets/home/hero-img.jpeg" alt="" class="hero__image">
   </div>
 </section>
-<section id="featured-articles" class="featured-articles">
-  <div class="container flow">
-    <section class="intro">
-      <h2 class="section-title">Featured articles</h2>
-      <p class="">A short preview of what to expect from this blog! Working hard to keep it fresh and moving on.</p>
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-      <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
-</svg>
-    </section>
-    <ul role="list" class="articles_list flow">
-      {%- for post in collections.featured | reverse -%}
-        {% include 'article-snippet.njk' %}
+
+<section class="topics-section scroll-reveal">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-badge section-badge--topics">Architecture &amp; Mindset</span>
+      <h2 class="section-title text-gradient" style="font-size: 2.25rem;">Core Topics We Cover</h2>
+      <p class="text-muted" style="max-width: 32rem; margin: 0.5rem auto 0;">Explore the essential programming building blocks and engineering reflections I write about.</p>
+    </div>
+    
+    <div class="topics-grid">
+      <div class="topic-card">
+        <div class="topic-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 1 0-.708-.708L1.146 6.5a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L2.207 7l2.647-2.854zm6.292.708a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 0 0 .708.708L13.793 7l-2.647 2.854z"/>
+          </svg>
+        </div>
+        <h3 class="topic-title">Web Development</h3>
+        <p class="topic-desc">Deep-dives into semantic HTML, CSS architectures, and modern client-side JavaScript design patterns.</p>
+        <span class="topic-card__link">Explore Fundamentals &rarr;</span>
+      </div>
+
+      <div class="topic-card">
+        <div class="topic-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+            <path d="M4 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0"/>
+          </svg>
+        </div>
+        <h3 class="topic-title">Design Systems</h3>
+        <p class="topic-desc">Creating curated color systems, modern typography scales, and responsive layouts that wow at first glance.</p>
+        <span class="topic-card__link">View UI Guidelines &rarr;</span>
+      </div>
+
+      <div class="topic-card">
+        <div class="topic-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M5.52.174A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .48.36L11.64 4H14.5a.5.5 0 0 1 .49.598l-3 10a.5.5 0 0 1-.49.402H4.5a.5.5 0 0 1-.49-.402l-3-10A.5.5 0 0 1 1.5 4h2.86L5.52.174zM4.77 5 3.03 10.8H6.5V5zM7.5 5v5.8h1V5zm2 0v5.8h3.47L11.23 5zM3.21 11.8 3.87 14h8.26l.66-2.2H3.21z"/>
+          </svg>
+        </div>
+        <h3 class="topic-title">Jamstack Static Sites</h3>
+        <p class="topic-desc">Building lightning-fast, highly secure static sites utilizing the power of Eleventy (11ty) and Markdown.</p>
+        <span class="topic-card__link">Build Fast Sites &rarr;</span>
+      </div>
+
+      <div class="topic-card">
+        <div class="topic-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 16.016a.5.5 0 0 1-.5-.5V14.5a.5.5 0 0 1 .5-.5h.5a.5.5 0 0 1 0 1h-.5v.516a.5.5 0 0 1-.5.5M8 0a8 8 0 1 0 0 16 8 8 0 0 0 0-16M2 8a6 6 0 1 1 12 0A6 6 0 0 1 2 8"/>
+            <path d="M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8M6.5 8a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0"/>
+          </svg>
+        </div>
+        <h3 class="topic-title">Dev Adventures</h3>
+        <p class="topic-desc">Personal journals, progress trackers, and direct reflections of my development journey into professional tech.</p>
+        <span class="topic-card__link">Read Experiences &rarr;</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 1: EDITORIAL SPOTLIGHT -->
+<section id="featured-articles" class="spotlight-section scroll-reveal">
+  <div class="container">
+    <div class="section-intro-card text-center">
+      <span class="section-badge section-badge--spotlight">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+        </svg>
+        Featured Story
+      </span>
+      <h2 class="section-title text-gradient">Editorial Spotlight</h2>
+      <p class="section-subtitle">Our flagship story diving deep into philosophy, architecture, and exploration.</p>
+    </div>
+
+    {% set allFeatured = collections.featured | reverse %}
+    {% set post = allFeatured[0] %}
+    {% if post %}
+      <div class="spotlight-container">
+        {% include 'card-spotlight.njk' %}
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<!-- SECTION 2: LATEST DISPATCHES (MAGAZINE GRID) -->
+<section class="latest-section scroll-reveal">
+  <div class="container">
+    <div class="section-header-split">
+      <div>
+        <span class="section-badge section-badge--grid">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+          </svg>
+          Deep Dives
+        </span>
+        <h2 class="section-title text-gradient">Latest Dispatches</h2>
+        <p class="section-subtitle">Coding guides, system breakdowns, and lessons from the programming journey.</p>
+      </div>
+      <a href="/blog" class="btn btn--outline-blue d-none d-md-inline-flex align-items-center gap-2">
+        Browse All Articles
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="articles-grid">
+      {%- for post in allFeatured -%}
+        {%- if loop.index > 1 and loop.index <= 3 -%}
+          <div class="scroll-reveal">
+            {% include 'card-grid.njk' %}
+          </div>
+        {%- endif -%}
       {%- endfor -%}
-    </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: DEV NOTES & FIELD LOGS (COMPACT JOURNAL CARDS) -->
+<section class="dev-notes-section scroll-reveal">
+  <div class="container">
+    <div class="section-intro-card text-center">
+      <span class="section-badge section-badge--compact">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
+          <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+          <path d="M4 4h8v1H4zm0 2h8v1H4zm0 2h8v1H4zm0 2h5v1H4z"/>
+        </svg>
+        Terminal Logs
+      </span>
+      <h2 class="section-title text-gradient">Dev Notes &amp; Field Insights</h2>
+      <p class="section-subtitle">Bite-sized reflections, mindset shifts, and quick technical takeaways from the trenches.</p>
+    </div>
+
+    <div class="compact-grid">
+      {%- for post in allFeatured -%}
+        {%- if loop.index > 3 -%}
+          <div class="scroll-reveal">
+            {% set logIndex = loop.index %}
+            {% include 'card-compact.njk' %}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="/blog" class="btn btn--primary">
+        Explore Full Archive ({{ collections.post.length }} Posts)
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true" style="margin-left: 0.35rem;">
+          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER SECTION -->
+<section class="newsletter-section scroll-reveal">
+  <div class="container">
+    <div class="newsletter-card">
+      <div class="newsletter-card__content">
+        <h2 class="newsletter-card__title">Never Miss an Article</h2>
+        <p class="newsletter-card__text">
+          Subscribe to follow along with dev adventures, guides, and tips delivered directly to your inbox.
+        </p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully! (Demo)');">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email Address">
+          <button type="submit" class="btn btn--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
